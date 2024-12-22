@@ -7,28 +7,28 @@ int main()
 	switch (day)
 	{
 	case 1:
-		printf("星期1\n");
+		printf("Monday\n");
 		break;
 	case 2:
-		printf("星期2\n");
+		printf("Tuesday\n");
 		break;
 	case 3:
-		printf("星期3\n");
+		printf("Wednesday\n");
 		break;
 	case 4:
-		printf("星期4\n");
+		printf("Thursday\n");
 		break;
 	case 5:
-		printf("星期5\n");
+		printf("Friday\n");
 		break;
 	case 6:
-		printf("星期6\n");
+		printf("Saturday\n");
 		break;
 	case 7:
-		printf("星期7\n");
+		printf("Sunday\n");
 		break;
 	default:
-		printf("输入错误\n");
+		printf("Wrong!\n");
 	}
 	return 0;
 }
